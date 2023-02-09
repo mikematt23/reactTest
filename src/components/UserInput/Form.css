@@ -1,0 +1,20 @@
+.form{
+  padding: 2rem;
+  width: 100%;
+}
+.form-item{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: .5rem;
+}
+.form-item input{
+  width: 80%;
+}
+.form-item button {
+  margin-top: .5rem;
+  color: white;
+  border-radius: 3px;
+  background-color: purple;
+  width: 6rem;
+}
