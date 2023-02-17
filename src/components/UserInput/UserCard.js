@@ -1,5 +1,5 @@
 import { useState } from "react"
-
+import Error from "../UI/Error"
 import Card from "../UI/Card"
 import Form from "./Form"
 
@@ -17,9 +17,7 @@ const UserCard = (props)=>{
 
   if(controller === 0){
     return (
-      <div>
-        <h2>here</h2>
-      </div>
+        <Error onSet = {onSet}></Error>
     )
   }
   return(
